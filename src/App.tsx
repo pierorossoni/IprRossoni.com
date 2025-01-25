@@ -19,6 +19,17 @@ import React from 'react';
             <span className="hidden md:inline">Fale no WhatsApp</span>
           </a>
 
+          {/* Admin Floating Button */}
+          <button
+            onClick={() => alert('Admin Panel')}
+            className="fixed bottom-2 left-2 bg-gray-700 text-white p-2 rounded-full shadow-lg hover:bg-gray-800 transition-colors z-50 flex items-center justify-center w-10 h-10"
+            aria-label="Admin Panel"
+          >
+            <span role="img" aria-label="admin" className="text-xl">
+              🧑‍💻
+            </span>
+          </button>
+
           {/* Hero Section */}
           <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
             <div className="container mx-auto px-4 py-16">
